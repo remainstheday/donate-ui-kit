@@ -212,7 +212,7 @@ var __vue_render__ = function __vue_render__() {
 
   return _c('div', {
     staticClass: "donate-card"
-  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", _vm.image) + " data-v-518784e8> <h3 data-v-518784e8>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h3> <p data-v-518784e8>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p> <button data-v-518784e8>" + _vm._ssrEscape(_vm._s(_vm.buttonText)) + "</button>")]);
+  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", _vm.image) + " data-v-7680bd59> <h3 data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h3> <p data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p> <button data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.buttonText)) + "</button>")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -220,8 +220,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-518784e8_0", {
-    source: ".donate-card[data-v-518784e8]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-518784e8]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
+  inject("data-v-7680bd59_0", {
+    source: ".donate-card[data-v-7680bd59]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-7680bd59]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
     map: undefined,
     media: undefined
   });
@@ -229,10 +229,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-518784e8";
+var __vue_scope_id__ = "data-v-7680bd59";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-518784e8";
+var __vue_module_identifier__ = "data-v-7680bd59";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
@@ -241,7 +241,7 @@ var __vue_is_functional_template__ = false;
 var __vue_component__ = /*#__PURE__*/normalizeComponent({
   render: __vue_render__,
   staticRenderFns: __vue_staticRenderFns__
-}, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, createInjectorSSR, undefined);/* eslint-disable import/prefer-default-export */var components=/*#__PURE__*/Object.freeze({__proto__:null,DonateCard: __vue_component__});var install = function installDonateUiKit(Vue) {
+}, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, createInjectorSSR, undefined);/* eslint-disable import/prefer-default-export */var components=/*#__PURE__*/Object.freeze({__proto__:null,Card: __vue_component__});var install = function installDonateUiKit(Vue) {
   if (install.installed) return;
   install.installed = true;
   Object.entries(components).forEach(function (_ref) {
@@ -274,4 +274,4 @@ var plugin = {
     GlobalVue.use(plugin);
   }
 } // Default export is library as a whole, registered via Vue.use()
-exports.DonateCard=__vue_component__;exports.default=plugin;
+exports.Card=__vue_component__;exports.default=plugin;

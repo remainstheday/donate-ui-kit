@@ -1,6 +1,6 @@
 {
   "name": "donate-ui-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Non-Profit focused Vue.js UI library that helps with accepting donations.",
   "main": "dist/donate-ui-kit.ssr.js",
   "browser": "dist/donate-ui-kit.esm.js",

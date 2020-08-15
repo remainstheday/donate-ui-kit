@@ -192,8 +192,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-518784e8_0", {
-    source: ".donate-card[data-v-518784e8]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-518784e8]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
+  inject("data-v-7680bd59_0", {
+    source: ".donate-card[data-v-7680bd59]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-7680bd59]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
     map: undefined,
     media: undefined
   });
@@ -201,7 +201,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-518784e8";
+const __vue_scope_id__ = "data-v-7680bd59";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
@@ -221,7 +221,7 @@ const __vue_component__ = /*#__PURE__*/normalizeComponent({
 
 var components = /*#__PURE__*/Object.freeze({
   __proto__: null,
-  DonateCard: __vue_component__
+  Card: __vue_component__
 });
 
 // Import vue components
@@ -240,4 +240,4 @@ const plugin = {
 }; // To auto-install on non-es builds, when vue is found
 
 export default plugin;
-export { __vue_component__ as DonateCard };
+export { __vue_component__ as Card };
