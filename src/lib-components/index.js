@@ -1,2 +1,2 @@
 /* eslint-disable import/prefer-default-export */
-export { default as Card } from './Card/Card.vue';
+export { default as Card } from "./card/Card.vue";
