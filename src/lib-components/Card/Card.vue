@@ -1,8 +1,10 @@
 <template>
   <div class="donate-card">
     <img :src="image" />
-    <h3>{{ title }}</h3>
-    <p>{{ description }}</p>
+    <section>
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+    </section>
     <button @click="onDonateBtnClick">{{ buttonText }}</button>
   </div>
 </template>
@@ -45,14 +47,19 @@ export default {
   margin: 5px;
 }
 
+section {
+  padding: 0 1rem;
+}
+
 button {
-  width: 95%;
+  display: block;
+  width: calc(100% - 2rem);
   background: #3541e0;
   border: 0;
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
   padding: 10px;
-  margin: 5px auto;
+  margin: 5px 1rem;
 }
 </style>

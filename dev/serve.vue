@@ -1,17 +1,17 @@
 <script>
 import Vue from 'vue';
-import { DonateUiKitSample } from '@/entry';
+import { Card } from '@/entry';
 
 export default Vue.extend({
   name: 'ServeDev',
   components: {
-    DonateUiKitSample,
+    Card,
   }
 });
 </script>
 
 <template>
   <div id="app">
-    <donate-ui-kit-sample />
+    <card />
   </div>
 </template>
