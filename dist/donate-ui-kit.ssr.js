@@ -61,6 +61,8 @@ function _nonIterableRest() {
 //
 //
 //
+//
+//
 var script = {
   name: 'donate-card',
   props: {
@@ -212,7 +214,7 @@ var __vue_render__ = function __vue_render__() {
 
   return _c('div', {
     staticClass: "donate-card"
-  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", _vm.image) + " data-v-7680bd59> <h3 data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h3> <p data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p> <button data-v-7680bd59>" + _vm._ssrEscape(_vm._s(_vm.buttonText)) + "</button>")]);
+  }, [_vm._ssrNode("<img" + _vm._ssrAttr("src", _vm.image) + " data-v-7bb394b0> <section data-v-7bb394b0><h3 data-v-7bb394b0>" + _vm._ssrEscape(_vm._s(_vm.title)) + "</h3> <p data-v-7bb394b0>" + _vm._ssrEscape(_vm._s(_vm.description)) + "</p></section> <button data-v-7bb394b0>" + _vm._ssrEscape(_vm._s(_vm.buttonText)) + "</button>")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -220,8 +222,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-7680bd59_0", {
-    source: ".donate-card[data-v-7680bd59]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-7680bd59]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
+  inject("data-v-7bb394b0_0", {
+    source: ".donate-card[data-v-7bb394b0]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}section[data-v-7bb394b0]{padding:0 1rem}button[data-v-7bb394b0]{display:block;width:calc(100% - 2rem);background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px 1rem}",
     map: undefined,
     media: undefined
   });
@@ -229,10 +231,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-7680bd59";
+var __vue_scope_id__ = "data-v-7bb394b0";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-7680bd59";
+var __vue_module_identifier__ = "data-v-7bb394b0";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

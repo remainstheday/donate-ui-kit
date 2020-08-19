@@ -7,6 +7,8 @@
 //
 //
 //
+//
+//
 var script = {
   name: 'donate-card',
   props: {
@@ -180,7 +182,7 @@ var __vue_render__ = function () {
     attrs: {
       "src": _vm.image
     }
-  }), _vm._v(" "), _c('h3', [_vm._v(_vm._s(_vm.title))]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.description))]), _vm._v(" "), _c('button', {
+  }), _vm._v(" "), _c('section', [_c('h3', [_vm._v(_vm._s(_vm.title))]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.description))])]), _vm._v(" "), _c('button', {
     on: {
       "click": _vm.onDonateBtnClick
     }
@@ -192,8 +194,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-7680bd59_0", {
-    source: ".donate-card[data-v-7680bd59]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}button[data-v-7680bd59]{width:95%;background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px auto}",
+  inject("data-v-7bb394b0_0", {
+    source: ".donate-card[data-v-7bb394b0]{border:1px solid rgba(0,0,0,.125);width:250px;height:300px;margin:5px}section[data-v-7bb394b0]{padding:0 1rem}button[data-v-7bb394b0]{display:block;width:calc(100% - 2rem);background:#3541e0;border:0;border-radius:3px;color:#fff;cursor:pointer;padding:10px;margin:5px 1rem}",
     map: undefined,
     media: undefined
   });
@@ -201,7 +203,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-7680bd59";
+const __vue_scope_id__ = "data-v-7bb394b0";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
